@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'Torus';
+  src: url('./Fontspring-DEMO-toruspro-regular.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root{
+  --color-primary: #5639ac;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #18171c;
+}
+
+a{
+  font-family: 'Torus', sans-serif;
+  text-decoration: none;
+}
+header{
+  text-transform: lowercase;
+}
+
+
