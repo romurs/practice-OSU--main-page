@@ -17,6 +17,16 @@ defineProps({
   display: flex;
   padding: 10px;
   
-  a{ color: #fff; }
+  a{
+    color: #c4c4c4;
+    font-weight: bold;
+    align-items: stretch;
+  }
+}
+
+.nav-col-btn:hover{
+    a{
+      color: #fff;
+    }
 }
 </style>
